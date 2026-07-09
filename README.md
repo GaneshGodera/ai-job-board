@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Job Board
 
-## Getting Started
+## Overview
 
-First, run the development server:
+AI Job Board is a modern job listing platform built with Next.js and Tailwind CSS. It allows users to search and explore job opportunities through a clean and responsive interface.
+
+---
+
+## Features
+
+- Responsive UI
+- Modern Navigation Bar
+- Hero Section
+- Search Jobs
+- Filter by Location
+- Filter by Job Type
+- Featured Jobs
+- Job Details Page
+- Statistics Section
+- Footer
+- GitHub Actions CI
+- Vercel Deployment
+
+---
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- GitHub Actions
+- Vercel
+
+---
+
+## Folder Structure
+
+```
+app/
+components/
+data/
+public/
+types/
+.github/workflows/
+```
+
+---
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/GaneshGodera/ai-job-board.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the application
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## CI/CD
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses GitHub Actions for Continuous Integration.
 
-## Learn More
+The workflow automatically:
 
-To learn more about Next.js, take a look at the following resources:
+- Installs dependencies
+- Builds the application
+- Verifies the project on every push to the main branch
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Deployment is automatically handled by Vercel.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Live Demo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+https://ai-job-board-dun.vercel.app/
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## GitHub Repository
+
+https://github.com/GaneshGodera/ai-job-board
+
+---
+
+## Future Improvements
+
+- User Authentication
+- Save Jobs
+- Apply with Resume
+- Admin Dashboard
+- Backend Integration
+- Database Support
+- Email Notifications
+
+---
+
+## Author
+
+Ganesh Godera
